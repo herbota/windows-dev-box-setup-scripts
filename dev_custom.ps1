@@ -22,6 +22,7 @@ function executeScript {
 }
 
 #--- Setting up Windows ---
+executeScript "SystemConfiguration.ps1";
 executeScript "CommonDevTools.ps1";
 executeScript "HyperV.ps1";
 executeScript "Docker.ps1";
