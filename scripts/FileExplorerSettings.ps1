@@ -1,7 +1,7 @@
 #--- Configuring Windows properties ---
 #--- Windows Features ---
-# Show hidden files, Show protected OS files, Show file extensions
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+# Show hidden files, Show file extensions
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions
 <#
 #--- File Explorer Settings ---
 # will expand explorer to the actual folder you're in

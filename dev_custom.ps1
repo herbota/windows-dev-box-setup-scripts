@@ -31,6 +31,9 @@ executeScript "Docker.ps1";
 executeScript "WSL.ps1";
 executeScript "Browsers.ps1";
 
+#--- Tools ---
+choco install -y nodejs-lts # Node.js LTS, Recommended for most users
+
 #--- Settings ---
 Invoke-WebRequest "$configUri/windows-terminal-settings.json" -OutFile "$env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
