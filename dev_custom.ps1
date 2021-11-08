@@ -33,6 +33,7 @@ executeScript "Browsers.ps1";
 
 #--- Tools ---
 choco install -y nodejs-lts # Node.js LTS, Recommended for most users
+choco install -y postman
 choco install -y voicemeeter.install
 
 #--- Settings ---
