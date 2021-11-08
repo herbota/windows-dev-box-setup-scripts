@@ -4,4 +4,4 @@ choco install -y vscode
 choco install -y microsoft-windows-terminal
 choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'"
 choco install -y intellijidea-community
-choco install -y visualstudio2019-workload-netweb # ASP.NET and web development workload
+choco install -y visualstudio2019community --package-parameters "--add Microsoft.VisualStudio.Workload.NetWeb --includeRecommended"
