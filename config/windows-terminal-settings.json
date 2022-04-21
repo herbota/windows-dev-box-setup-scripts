@@ -59,7 +59,7 @@
                 "cursorColor" : "#FFFFFF",
                 "cursorShape" : "bar",
                 "fontFace" : "Consolas",
-                "fontSize" : 10,
+                "fontSize" : 11,
                 "guid" : "{00000000-0000-0000-0000-000000012345}",
                 "historySize" : 9001,
                 "icon" : "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
